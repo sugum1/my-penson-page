@@ -53,27 +53,27 @@
 })(jQuery);
 //图片阅览插件
 $(function(){
+	var pro = $(".pro").offset().top -61;
   $(".pro1imgviw").preview();
    $(window).scroll(function () {  
                var scrollTop =$(this).scrollTop();//滚动高度
-               if(scrollTop < 85){  
+			   
+               if(scrollTop >= 0){  
                    $(".miantil").addClass("header-border");  
                };  
-               if(scrollTop > 85){  
+               if(scrollTop >= 67){  
                    $(".miantil").removeClass("header-border")  
                }; 
-               if(scrollTop > 90){  
+               if(scrollTop >= 0){  
                    $(".protil").addClass("header-border");  
                }; 
-              if(scrollTop > 679){  
-                   $(".protil").removeClass("header-border")  
-               }; 
-           if(scrollTop < 89){  
+              
+           if(scrollTop <= 67){  
                    $(".protil").removeClass("header-border")  
                }; 
            });
   //header滚动效果 效果到pro
-  var pro = $(".pro").offset().top -61
+
   $(".miantil").click(function(){
    
 $("html,body").animate({scrollTop: 0}, 1000);

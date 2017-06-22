@@ -2,13 +2,13 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 body{ font-family:"Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif; font-size:12px; line-height:24px; background:#fff;  color:#333;background:#497dbe}
 .cl{ clear:both;}
 h1{margin:5px}
-.header-border{border:1px solid #FFF}
+.header-border{border:1px solid #FFF;border-bottom: 2px solid #fff;}
 /*公共代码*/
 header {position:fixed;left:0px;top:0px;width:100%;height:55px;background:linear-gradient(to right,#4da0b0
 ,#d39d38);border-bottom:1px solid white;z-index:3;}
 header div{margin-left:75%}
 header div p{padding:15px 4px 13px 5px;float:left;font-size:20px;color:white;font-weight:200;font-family:pristina;border:1px solid #FFF;border-color: transparent}
-header div p:hover{cursor:pointer;border:1px solid #FFF;}
+header div p:hover{cursor:pointer;border:1px solid #FFF;border-bottom: 2px solid #fff;}
 /*头部*/
 .mianpage{border:1px solid white;border-top:0px;float:right;width:80%;height:1500px;margin-top:50px;background:linear-gradient(#56ccf2, #2f80ed);z-index:2}
 /*主页面*/
