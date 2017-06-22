@@ -1,0 +1,29 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,section, article, aside, header, footer, nav, dialog, figure,menu,hgroup,iframe{ margin:0; padding:0; border:0; }
+body{ font-family:"Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif; font-size:12px; line-height:24px; background:#fff;  color:#333;background:#497dbe}
+.cl{ clear:both;}
+h1{margin:5px}
+.header-border{border:1px solid #FFF}
+/*公共代码*/
+header {position:fixed;left:0px;top:0px;width:100%;height:55px;background:linear-gradient(to right,#4da0b0
+,#d39d38);border-bottom:1px solid white;z-index:3;}
+header div{margin-left:75%}
+header div p{padding:15px 4px 13px 5px;float:left;font-size:20px;color:white;font-weight:200;font-family:pristina;border:1px solid #FFF;border-color: transparent}
+header div p:hover{cursor:pointer;border:1px solid #FFF;}
+/*头部*/
+.mianpage{border:1px solid white;border-top:0px;float:right;width:80%;height:1500px;margin-top:50px;background:linear-gradient(#56ccf2, #2f80ed);z-index:2}
+/*主页面*/
+.propage1{display:none;height:1500px;width:80%;overflow:hidden;position:fixed;right:0px;z-index:4;background:white}
+.pro1page{height:100%;width:100%;}
+.propage1 .xx{position:fixed;top:10px;left:210px;height:40px}
+.tishi{position:fixed;top:10px;left:40px;height:25px}
+.img{height:100px;position:absolute;top:50px;border:1px solid white}
+.logo{height:70px;position:absolute;top:70px;left:75px}
+.mian{width:100%;border-bottom:1px solid white;overflow:hidden;}
+.mian {z-index:1}
+.mian h3{font-size:20px;margin:10px}
+/*信息*/
+.pro{border-bottom:1px solid white}
+.pro h2{font-size:26px;margin:10px;margin-bottom:15px}
+.pro h4{font-size:16px;margin:15px;}
+.pro .pro1{color:white;font-size:16px;margin-left:15px}
+.pro .pro1imgviw img {height:400px;margin-left:15px;margin-bottom:15px;border:1px solid white}
