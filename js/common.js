@@ -59,7 +59,7 @@ $(function(){
                if(scrollTop < 85){  
                    $(".miantil").addClass("header-border");  
                };  
-               if(scrollTop > 89){  
+               if(scrollTop > 88){  
                    $(".miantil").removeClass("header-border")  
                }; 
                if(scrollTop > 90){  
